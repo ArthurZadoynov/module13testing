@@ -1,0 +1,19 @@
+{
+  "name": "moduletesting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test typeArr.test": "mocha test/typeArr.test.js",
+    "test user.test": "mocha test/user.test.js"
+  },
+  "author": "Arthur",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.0",
+    "node-fetch": "^3.3.2",
+    "sinon": "^18.0.0"
+  }
+}
